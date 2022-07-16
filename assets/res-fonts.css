@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans&family=Fira+Sans+Condensed:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap');
+
+
+body, h1, h2, h3 {
+  font-family: 'Albert Sans', sans-serif;
+}
+
+h1, h2, h3 {
+  font-weight: 600;
+}
+
+body {
+  font-weight: 400;
+}
+
+.remark-code, .remark-inline-code {
+  font-family: 'Source Code Pro', 'Lucida Console', Monaco, monospace;
+}
