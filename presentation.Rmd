@@ -167,7 +167,7 @@ background-position: 100% 1%
 knitr::include_graphics("images/nuevo33.png")
 ```
 
-- .large[Según los datos de la Dirección del Trabajo (DT),] 
+- .large[Según los últimos datos de la Dirección del Trabajo (DT), hubo 11.926 sindicatos activos en el año 2019 y 12.355 en el 2020 *(Compendio Estadístico, 2020)*.] 
 
 
 ---
@@ -178,10 +178,10 @@ background-position: 100% 1%
 ## Sindicatos constituidos
 
 ```{r echo=FALSE, results='asis', out.width = '72%', echo = FALSE, fig.align = 'center'}
-knitr::include_graphics("images/nuevo22.png")
+knitr::include_graphics("images/constituidos.png")
 ```
 
-- .large[Según los datos de la Dirección del Trabajo (DT),]
+- .large[Según los últimos datos de la Dirección del Trabajo (DT), al año 2020 se constituyeron 448 sindicatos, lo cual se condice con las estimaciones del microdato *(Anuario Estadístico, 2020)*]
 
 ---
 background-image: url("assets/logo/RES-04.png")
@@ -213,13 +213,50 @@ background-position: 100% 1%
 
 ## Tasas de afiliación sindical
 
-.large[Debido a que la DT ya publicó las cifras del 2020, es posible comparar estas estimaciones con las oficiales:] 
+.large[
+Debido a que la DT ya publicó las cifras del 2020, ahora es posible comparar estas estimaciones con las oficiales:
 
-1. 
-2.
-3.
+] 
+
+.pull-left[
+
+.content-box-purple[
+
+**Dirección del Tabajo 2020**
+
+1. TS1 = **15.5%**
+
+2. TS2 = **18.9%**
+
+3. TS3  = **22.2%**
+
+]]
+
+.pull-right[
+
+.content-box-purple[
+
+**Estimación RES 2020**
+
+1. TS1 = **15.49%**
+
+2. TS2 = **18.91%**
+
+3. TS3 = **22.27%**
+
+]]
  
+<br><br>
 
+.content-box-grey[
+
+Nota:
+
+- .large[**El aumento en las tres tasas en el 2020 se asocia a la fuerte caída en el empleo y en la tasa de participación de la fuerza de trabajo por efecto pandemia COVID-19.**]
+
+
+
+]
 ---
 class: segue-violet
 background-image: url("assets/logo/RES-08.png")
@@ -242,8 +279,14 @@ background-position: 100% 1%
 
 .content-box-red[
 
-1. 
-2. 
+Hallazgos principales
+
+
+**1. Disminución en la cantidad de sindicatos activos (2019-2020), con leve aumento en Octubre del 2019 y una abrupta caída a inicios 2020.**
+
+**2. Incremento en la cantidad de sindicatos constituidos post Estallido. Disminución en el "ritmo" de constitución sindical posterior a diciembre del 2019 hasta comienzos del 2020.**
+
+**3. Aumento en las tasas de afiliación sindical en el año 2020, pero que estaría explicada por la fuerte caída en la ocupación y fuerza de trabajo.**
 
 
 ]
@@ -251,6 +294,10 @@ background-position: 100% 1%
 
 
 ## Reflexión
+
+- **¿?**
+
+
 ---
 class: violet
 background-image: url("assets/logo/RES-08.png")

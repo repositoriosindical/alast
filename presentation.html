@@ -25,10 +25,18 @@
     <textarea id="source">
 class: center, middle, inverse, title-slide
 
+.title[
 # “Sindicatos en la coyuntura del estallido social y la pandemia (2018-2021). Una descripción cuantitativa en base a datos administrativos públicos”
+]
+.subtitle[
 ## .small[Ponencia X Congreso Asociación Latinoamericana de Estudios del Trabajo (ALAST)] 2022<br>
+]
+.author[
 ### Nicolás Ratto, Andreas Lafferte &amp; Felipe Marchant <br>.tiny[Repositorio de Estadísticas Sindicales (RES)]
-### .tiny[16 julio, 2022]
+]
+.date[
+### .tiny[17 julio, 2022]
+]
 
 ---
 
@@ -146,7 +154,7 @@ background-position: 100% 1%
 
 &lt;img src="images/nuevo33.png" width="72%" style="display: block; margin: auto;" /&gt;
 
-- .large[Según los datos de la Dirección del Trabajo (DT),] 
+- .large[Según los últimos datos de la Dirección del Trabajo (DT), hubo 11.926 sindicatos activos en el año 2019 y 12.355 en el 2020 *(Compendio Estadístico, 2020)*.] 
 
 
 ---
@@ -156,9 +164,9 @@ background-position: 100% 1%
 
 ## Sindicatos constituidos
 
-&lt;img src="images/nuevo22.png" width="72%" style="display: block; margin: auto;" /&gt;
+&lt;img src="images/constituidos.png" width="72%" style="display: block; margin: auto;" /&gt;
 
-- .large[Según los datos de la Dirección del Trabajo (DT),]
+- .large[Según los últimos datos de la Dirección del Trabajo (DT), al año 2020 se constituyeron 448 sindicatos, lo cual se condice con las estimaciones del microdato *(Anuario Estadístico, 2020)*]
 
 ---
 background-image: url("assets/logo/RES-04.png")
@@ -186,13 +194,50 @@ background-position: 100% 1%
 
 ## Tasas de afiliación sindical
 
-.large[Debido a que la DT ya publicó las cifras del 2020, es posible comparar estas estimaciones con las oficiales:] 
+.large[
+Debido a que la DT ya publicó las cifras del 2020, ahora es posible comparar estas estimaciones con las oficiales:
 
-1. 
-2.
-3.
+] 
+
+.pull-left[
+
+.content-box-purple[
+
+**Dirección del Tabajo 2020**
+
+1. TS1 = **15.5%**
+
+2. TS2 = **18.9%**
+
+3. TS3  = **22.2%**
+
+]]
+
+.pull-right[
+
+.content-box-purple[
+
+**Estimación RES 2020**
+
+1. TS1 = **15.49%**
+
+2. TS2 = **18.91%**
+
+3. TS3 = **22.27%**
+
+]]
  
+&lt;br&gt;&lt;br&gt;
 
+.content-box-grey[
+
+Nota:
+
+- .large[**El aumento en las tres tasas en el 2020 se asocia a la fuerte caída en el empleo y en la tasa de participación de la fuerza de trabajo por efecto pandemia COVID-19.**]
+
+
+
+]
 ---
 class: segue-violet
 background-image: url("assets/logo/RES-08.png")
@@ -215,8 +260,14 @@ background-position: 100% 1%
 
 .content-box-red[
 
-1. 
-2. 
+Hallazgos principales
+
+
+**1. Disminución en la cantidad de sindicatos activos (2019-2020), con leve aumento en Octubre del 2019 y una abrupta caída a inicios 2020.**
+
+**2. Incremento en la cantidad de sindicatos constituidos post Estallido. Disminución en el "ritmo" de constitución sindical posterior a diciembre del 2019 hasta comienzos del 2020.**
+
+**3. Aumento en las tasas de afiliación sindical en el año 2020, pero que estaría explicada por la fuerte caída en la ocupación y fuerza de trabajo.**
 
 
 ]
@@ -224,6 +275,10 @@ background-position: 100% 1%
 
 
 ## Reflexión
+
+- **¿?**
+
+
 ---
 class: violet
 background-image: url("assets/logo/RES-08.png")
@@ -305,6 +360,19 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
     deleted = true;
   });
 })();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
 (function() {
   "use strict"
   // Replace <script> tags in slides area to make them executable
