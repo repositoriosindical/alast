@@ -76,7 +76,7 @@ g1 <- ohl %>%
   geom_point(size = 1.5, colour = "#007df6")+
   scale_x_continuous(breaks = seq(1990, 2020, 1)) +
   scale_y_continuous(breaks = seq(200,450,50))+
-  geom_text_repel(aes(label = ifelse(yr %in% c(1990, 1995,2005,2010,2015,2019), format(paste0(n,"")),"")), color = "#007df6", fontface = "bold", size = 3.5) +
+  geom_text_repel(aes(label = ifelse(yr %in% c(1990, 1995,2000,2005,2010,2015,2019), format(paste0(n,"")),"")), color = "#007df6", fontface = "bold", size = 3.5) +
   labs(subtitle = "Número de huelgas 1990-2019",
        y = "Número huelgas",
        x = "Año",

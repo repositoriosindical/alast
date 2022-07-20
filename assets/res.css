@@ -72,7 +72,7 @@ To specify the margin of the first title h1
   color: white;
 }
 .violet {
-  background-color: #801aba;
+  background-color: #33394d; 
   color: white
 }
 .red {
@@ -94,7 +94,7 @@ To specify the margin of the first title h1
 .segue-violet {
   text-align:center;
   vertical-align: middle;
-  background-color: #801aba;
+  background-color: #33394d;
   color: #ffffff;
   text-shadow: 0 0 20px #333;
 }
